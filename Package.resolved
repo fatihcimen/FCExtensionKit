@@ -11,15 +11,6 @@
         }
       },
       {
-        "package": "KingfisherWebP",
-        "repositoryURL": "https://github.com/fatihcimen/KingfisherWebP",
-        "state": {
-          "branch": "fix/SPMSupport",
-          "revision": "a003e1175c93860984bca0467607763d3bd41e84",
-          "version": null
-        }
-      },
-      {
         "package": "libwebp",
         "repositoryURL": "https://github.com/SDWebImage/libwebp-Xcode",
         "state": {

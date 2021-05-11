@@ -8,7 +8,6 @@
 
 import UIKit
 import Kingfisher
-import KingfisherWebP
 
 // Image Download Wrapper
 public extension UIImageView {
