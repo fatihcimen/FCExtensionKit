@@ -30,10 +30,11 @@ class String_AdditionsTests: XCTestCase {
     }
     
     func testDate() {
-        let date = Date(timeIntervalSinceReferenceDate: -31629600.0)
-        let dateString = "2000-01-01T00:00:00"
+        let date = Date(timeIntervalSinceReferenceDate: -31622400.0)
         
-        XCTAssertEqual(dateString.date(), date)
+        let dateString = "2000-01-01T00:00:00.000Z"
+        
+        XCTAssertEqual(dateString.date(format: "yyyy-MM-dd'T'HH:mm:ss.SSSZ"), date)
     }
     
     func testLength() {
