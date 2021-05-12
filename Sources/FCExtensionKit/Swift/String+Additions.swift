@@ -33,6 +33,7 @@ public extension String {
     func date(format: String? = "yyyy-MM-dd'T'HH:mm:ss") -> Date? {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = format
+        dateFormatter.timeZone = TimeZone.current
         return dateFormatter.date(from: self)
     }
 }
