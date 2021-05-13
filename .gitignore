@@ -16,6 +16,7 @@ profile
 DerivedData
 *.hmap
 *.ipa
+.build
 
 Package.pins
 Package.resolved
