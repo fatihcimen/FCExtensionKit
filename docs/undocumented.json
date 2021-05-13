@@ -1,0 +1,635 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/Date+Additions.swift",
+      "line": 14,
+      "symbol": "Date.timePassedUntilNow",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 12,
+      "symbol": "URL.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 16,
+      "symbol": "URL.urlString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 35,
+      "symbol": "URLSchemeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 36,
+      "symbol": "URLSchemeType.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 37,
+      "symbol": "URLSchemeType.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 38,
+      "symbol": "URLSchemeType.http",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 39,
+      "symbol": "URLSchemeType.https",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 40,
+      "symbol": "URLSchemeType.blob",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 58,
+      "symbol": "URL.schemeType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 65,
+      "symbol": "URL.isAnyHTTP",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 72,
+      "symbol": "URL.SearchEngine",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 73,
+      "symbol": "URL.SearchEngine.bing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 73,
+      "symbol": "URL.SearchEngine.google",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 73,
+      "symbol": "URL.SearchEngine.yaani",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 73,
+      "symbol": "URL.SearchEngine.yahoo",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 73,
+      "symbol": "URL.SearchEngine.yandex",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 104,
+      "symbol": "URL.searchEngine",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URL+Additions.swift",
+      "line": 109,
+      "symbol": "URL.isSearchEngine",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URLConvertible.swift",
+      "line": 11,
+      "symbol": "URLConvertible",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URLConvertible.swift",
+      "line": 12,
+      "symbol": "URLConvertible.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URLConvertible.swift",
+      "line": 13,
+      "symbol": "URLConvertible.urlString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URLConvertible.swift",
+      "line": 14,
+      "symbol": "URLConvertible.queryParameters",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URLConvertible.swift",
+      "line": 17,
+      "symbol": "URLConvertible",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URLConvertible.swift",
+      "line": 19,
+      "symbol": "URLConvertible.queryItems",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Foundation/URLConvertible.swift",
+      "line": 27,
+      "symbol": "URLConvertible.queryParameters",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Kingfisher+WebP/Image+WebP.swift",
+      "line": 55,
+      "symbol": "KingfisherWrapper.image(webpData:scale:onlyFirstFrame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Kingfisher+WebP/Image+WebP.swift",
+      "line": 96,
+      "symbol": "Data.isWebPFormat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Kingfisher+WebP/WebPProcessor.swift",
+      "line": 12,
+      "symbol": "WebPProcessor",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Kingfisher+WebP/WebPProcessor.swift",
+      "line": 14,
+      "symbol": "WebPProcessor.default",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Kingfisher+WebP/WebPProcessor.swift",
+      "line": 18,
+      "symbol": "WebPProcessor.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Kingfisher+WebP/WebPSerializer.swift",
+      "line": 13,
+      "symbol": "WebPSerializer",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Kingfisher+WebP/WebPSerializer.swift",
+      "line": 14,
+      "symbol": "WebPSerializer.default",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Logger/Logger.swift",
+      "line": 11,
+      "symbol": "LogType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Logger/Logger.swift",
+      "line": 12,
+      "symbol": "LogType.infoLog",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Logger/Logger.swift",
+      "line": 13,
+      "symbol": "LogType.defaultLog",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Logger/Logger.swift",
+      "line": 14,
+      "symbol": "LogType.debugLog",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Logger/Logger.swift",
+      "line": 15,
+      "symbol": "LogType.errorLog",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Logger/Logger.swift",
+      "line": 16,
+      "symbol": "LogType.faultLog",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Logger/Logger.swift",
+      "line": 34,
+      "symbol": "Logger",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Logger/Logger.swift",
+      "line": 36,
+      "symbol": "Logger.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Logger/Logger.swift",
+      "line": 38,
+      "symbol": "Logger.log(_:message:line:function:file:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/Bool+Additions.swift",
+      "line": 11,
+      "symbol": "Bool.isToggled()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/Collection+Additions.swift",
+      "line": 10,
+      "symbol": "Collection.subscript(index:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/CountableClosedRage+Additions.swift",
+      "line": 12,
+      "symbol": "CountableClosedRange.zero",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/Double+Additions.swift",
+      "line": 16,
+      "symbol": "Double.priceFormatter",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/Double+Additions.swift",
+      "line": 52,
+      "symbol": "Double.millisecond",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/Double+Additions.swift",
+      "line": 53,
+      "symbol": "Double.second",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/Double+Additions.swift",
+      "line": 54,
+      "symbol": "Double.minute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/Double+Additions.swift",
+      "line": 55,
+      "symbol": "Double.hour",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/Double+Additions.swift",
+      "line": 56,
+      "symbol": "Double.day",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/Double+Additions.swift",
+      "line": 61,
+      "symbol": "Double.cgFloatValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/Double+Additions.swift",
+      "line": 68,
+      "symbol": "Double.floatValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/Int+Additions.swift",
+      "line": 25,
+      "symbol": "Int.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/String+Additions.swift",
+      "line": 44,
+      "symbol": "String.empty",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/String+Additions.swift",
+      "line": 45,
+      "symbol": "String.newline",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/String+Additions.swift",
+      "line": 46,
+      "symbol": "String.whitespace",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/String+Additions.swift",
+      "line": 48,
+      "symbol": "String.length",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/String+Additions.swift",
+      "line": 67,
+      "symbol": "String.floatValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/String+Additions.swift",
+      "line": 71,
+      "symbol": "String.integerValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/String+Additions.swift",
+      "line": 75,
+      "symbol": "String.nib",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/Swift/String+Additions.swift",
+      "line": 104,
+      "symbol": "String.sha1",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIApplication+Additions.swift",
+      "line": 54,
+      "symbol": "UIApplication.topViewController()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIEdgeInsets+Additions.swift",
+      "line": 27,
+      "symbol": "UIEdgeInsets.negated",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIEdgeInsets+Additions.swift",
+      "line": 31,
+      "symbol": "UIEdgeInsets.negate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIImageView+Additions.swift",
+      "line": 20,
+      "symbol": "UIImageView.image(url:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIImageView+Additions.swift",
+      "line": 24,
+      "symbol": "UIImageView.image(url:placeHolder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIImageView+Additions.swift",
+      "line": 28,
+      "symbol": "UIImageView.image(url:placeHolder:completed:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIImageView+Additions.swift",
+      "line": 39,
+      "symbol": "UIImageView.image(url:placeholder:completed:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIImageView+Additions.swift",
+      "line": 51,
+      "symbol": "UIImageView.image(url:placeholderEnabled:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIImageView+Additions.swift",
+      "line": 71,
+      "symbol": "UIImageView.cancelDownload()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UINavigationController+Additions.swift",
+      "line": 14,
+      "symbol": "UINavigationController.rootViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UINavigationController+Additions.swift",
+      "line": 27,
+      "symbol": "UINavigationController.safePushViewController(_:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UINavigationController+Additions.swift",
+      "line": 38,
+      "symbol": "UINavigationController.canPopViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIScrollView+Additions.swift",
+      "line": 26,
+      "symbol": "UIScrollView.ScrollingDirection",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIScrollView+Additions.swift",
+      "line": 27,
+      "symbol": "UIScrollView.ScrollingDirection.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIScrollView+Additions.swift",
+      "line": 28,
+      "symbol": "UIScrollView.ScrollingDirection.up",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIScrollView+Additions.swift",
+      "line": 29,
+      "symbol": "UIScrollView.ScrollingDirection.down",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIScrollView+Additions.swift",
+      "line": 32,
+      "symbol": "UIScrollView.isBouncing",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIScrollView+Additions.swift",
+      "line": 36,
+      "symbol": "UIScrollView.isBouncingVertical",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIScrollView+Additions.swift",
+      "line": 40,
+      "symbol": "UIScrollView.isBouncingTop",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIScrollView+Additions.swift",
+      "line": 44,
+      "symbol": "UIScrollView.isBouncingLeft",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIScrollView+Additions.swift",
+      "line": 48,
+      "symbol": "UIScrollView.isBouncingBottom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIScrollView+Additions.swift",
+      "line": 53,
+      "symbol": "UIScrollView.isBouncingRight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIView+Additions.swift",
+      "line": 38,
+      "symbol": "UIView.addTapGestureRecognizer(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIView+Additions.swift",
+      "line": 68,
+      "symbol": "UIView.ViewSide",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIView+Additions.swift",
+      "line": 69,
+      "symbol": "UIView.ViewSide.bottom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIView+Additions.swift",
+      "line": 69,
+      "symbol": "UIView.ViewSide.left",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIView+Additions.swift",
+      "line": 69,
+      "symbol": "UIView.ViewSide.right",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fatihcimen/Projects/FCExtensionKit/Sources/UIKit/UIView+Additions.swift",
+      "line": 69,
+      "symbol": "UIView.ViewSide.top",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/fatihcimen/Projects/FCExtensionKit"
+}
