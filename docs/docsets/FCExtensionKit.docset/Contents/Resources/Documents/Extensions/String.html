@@ -4,966 +4,972 @@
     <title>String Extension Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
-    <meta charset='utf-8'>
-	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0" />
+    <meta charset="utf-8">
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
+
     <a name="//apple_ref/swift/Extension/String" class="dashAnchor"></a>
+
     <a title="String Extension Reference"></a>
-    <header>
-      <div class="content-wrapper">
-        <p>
-          <a href="../index.html">FCExtensionKit Docs</a>
-          <span class="no-mobile"> (59% documented)</span>
-        </p>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          FCExtensionKit 1.1.0 Docs
+        </a>
+         (59% documented)
+      </p>
     
-        <p class="header-right">
-          <a href="https://github.com/fatihcimen/FCExtensionKit">
-            <img src="../img/gh.png"/>
-            <span class="no-mobile">View on GitHub</span>
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/fatihcimen/FCExtensionKit">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
           </a>
         </p>
     
-      </div>
     </header>
-    <div id="breadcrumbs-container">
-      <div class="content-wrapper">
-        <p id="breadcrumbs">
-          <span class="no-mobile">
-            <a href="../index.html">FCExtensionKit Reference</a>
-            <img id="carat" src="../img/carat.png" />
-          </span>
-          String Extension Reference
-        </p>
-      </div>
-    </div>
-    <div class="wrapper">
-      <div class="article-wrapper">
-        <article class="main-content">
-          <section>
-            <section class="section">
-              <h1>String</h1>
-                <div class="declaration">
-                  <div class="language">
-                    
-                    <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">String</span></code></pre>
 
-                  </div>
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">FCExtensionKit Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      String Extension Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Logger.html">Logger</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LogType.html">LogType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/URLSchemeType.html">URLSchemeType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Bool.html">Bool</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGFloat.html">CGFloat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGRect.html">CGRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGSize.html">CGSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Collection.html">Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CountableClosedRange.html">CountableClosedRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Data.html">Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Dictionary.html">Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Error.html">Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/IndexPath.html">IndexPath</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/KingfisherWrapper.html">KingfisherWrapper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/NSMutableAttributedString.html">NSMutableAttributedString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/NSNumber.html">NSNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/NSString.html">NSString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UICollectionView.html">UICollectionView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIEdgeInsets.html">UIEdgeInsets</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIImageView.html">UIImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UILabel.html">UILabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UINavigationController.html">UINavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIScrollView.html">UIScrollView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIScrollView/ScrollingDirection.html">– ScrollingDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UITableView.html">UITableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIView/ViewSide.html">– ViewSide</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/URL.html">URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/URL/SearchEngine.html">– SearchEngine</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/URLRequest.html">URLRequest</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/URLConvertible.html">URLConvertible</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/WebPProcessor.html">WebPProcessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/WebPSerializer.html">WebPSerializer</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>String</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">String</span></code></pre>
+
                 </div>
-              
-            </section>
-            <section class="section task-group-section">
-              <div class="task-group">
-                <ul>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE13remainingTimeSSSgvp"></a>
-                      <a name="//apple_ref/swift/Property/remainingTime" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE13remainingTimeSSSgvp">remainingTime</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Converts date string to remaining time</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">remainingTime</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE4date6format10Foundation4DateVSgSSSg_tF"></a>
-                      <a name="//apple_ref/swift/Method/date(format:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE4date6format10Foundation4DateVSgSSSg_tF">date(format:<wbr>)</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>String Date to Date</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">date</span><span class="p">(</span><span class="nv">format</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="s">"yyyy-MM-dd'T'HH:mm:ss"</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
-
-                          </div>
-                        </div>
-                        <div>
-                          <h4>Parameters</h4>
-                          <table class="graybox">
-                            <tbody>
-                              <tr>
-                                <td>
-                                  <code>
-                                  <em>format</em>
-                                  </code>
-                                </td>
-                                <td>
-                                  <div>
-                                    <p>Date Format</p>
-                                  </div>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                        <div>
-                          <h4>Return Value</h4>
-                          <p>Corverted Date</p>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                </ul>
               </div>
-              <div class="task-group">
-                <div class="task-name-container">
-                  <a name="/String%20Helpers"></a>
-                  <a name="//apple_ref/swift/Section/String Helpers" class="dashAnchor"></a>
-                  <div class="section-name-container">
-                    <a class="section-name-link" href="#/String%20Helpers"></a>
-                    <h3 class="section-name"><p>String Helpers</p>
-</h3>
+            
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE13remainingTimeSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/remainingTime" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE13remainingTimeSSSgvp">remainingTime</a>
+                    </code>
                   </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Converts date string to remaining time</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">remainingTime</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE4date6format10Foundation4DateVSgSSSg_tF"></a>
+                    <a name="//apple_ref/swift/Method/date(format:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE4date6format10Foundation4DateVSgSSSg_tF">date(format:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>String Date to Date</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">date</span><span class="p">(</span><span class="nv">format</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="s">"yyyy-MM-dd'T'HH:mm:ss"</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>format</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Date Format</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Corverted Date</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/String%20Helpers"></a>
+                <a name="//apple_ref/swift/Section/String Helpers" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/String%20Helpers"></a>
+                  <h3 class="section-name"><p>String Helpers</p>
+</h3>
                 </div>
-                <ul>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE5emptySSvpZ"></a>
-                      <a name="//apple_ref/swift/Variable/empty" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE5emptySSvpZ">empty</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Undocumented</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">empty</span><span class="p">:</span> <span class="kt">String</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE7newlineSSvpZ"></a>
-                      <a name="//apple_ref/swift/Variable/newline" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE7newlineSSvpZ">newline</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Undocumented</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">newline</span><span class="p">:</span> <span class="kt">String</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE10whitespaceSSvpZ"></a>
-                      <a name="//apple_ref/swift/Variable/whitespace" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE10whitespaceSSvpZ">whitespace</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Undocumented</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">whitespace</span><span class="p">:</span> <span class="kt">String</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE6lengthSivp"></a>
-                      <a name="//apple_ref/swift/Property/length" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE6lengthSivp">length</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Undocumented</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">length</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE7trimmedSSvp"></a>
-                      <a name="//apple_ref/swift/Property/trimmed" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE7trimmedSSvp">trimmed</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Trims Whitespaces and Newlines</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">trimmed</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE017trimmedLeadingAndD0SSvp"></a>
-                      <a name="//apple_ref/swift/Property/trimmedLeadingAndLeading" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE017trimmedLeadingAndD0SSvp">trimmedLeadingAndLeading</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Trims trailing and leading whitespaces</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">trimmedLeadingAndLeading</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE2nsSo8NSStringCvp"></a>
-                      <a name="//apple_ref/swift/Property/ns" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE2nsSo8NSStringCvp">ns</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Converts String to NSString</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">ns</span><span class="p">:</span> <span class="kt">NSString</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE10floatValueSfvp"></a>
-                      <a name="//apple_ref/swift/Property/floatValue" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE10floatValueSfvp">floatValue</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Undocumented</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">floatValue</span><span class="p">:</span> <span class="kt">Float</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE12integerValueSivp"></a>
-                      <a name="//apple_ref/swift/Property/integerValue" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE12integerValueSivp">integerValue</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Undocumented</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">integerValue</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE3nibSo5UINibCvp"></a>
-                      <a name="//apple_ref/swift/Property/nib" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE3nibSo5UINibCvp">nib</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Undocumented</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">nib</span><span class="p">:</span> <span class="kt">UINib</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE10isNotEmptySbvp"></a>
-                      <a name="//apple_ref/swift/Property/isNotEmpty" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE10isNotEmptySbvp">isNotEmpty</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>A Boolean value indicating whether the collection is not empty.</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isNotEmpty</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE8toDoubleSdvp"></a>
-                      <a name="//apple_ref/swift/Property/toDouble" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE8toDoubleSdvp">toDouble</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Converts formatted double</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">toDouble</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitEySSSgSJSgcfc"></a>
-                      <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitEySSSgSJSgcfc">init(_:<wbr>)</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Init with optional character</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">c</span><span class="p">:</span> <span class="kt">Character</span><span class="p">?)</span></code></pre>
-
-                          </div>
-                        </div>
-                        <div>
-                          <h4>Parameters</h4>
-                          <table class="graybox">
-                            <tbody>
-                              <tr>
-                                <td>
-                                  <code>
-                                  <em>c</em>
-                                  </code>
-                                </td>
-                                <td>
-                                  <div>
-                                    <p>Optinal Character</p>
-                                  </div>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                </ul>
               </div>
-              <div class="task-group">
-                <div class="task-name-container">
-                  <a name="/Crypto"></a>
-                  <a name="//apple_ref/swift/Section/Crypto" class="dashAnchor"></a>
-                  <div class="section-name-container">
-                    <a class="section-name-link" href="#/Crypto"></a>
-                    <h3 class="section-name"><p>Crypto</p>
-</h3>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE5emptySSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/empty" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE5emptySSvpZ">empty</a>
+                    </code>
                   </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">empty</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE7newlineSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/newline" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE7newlineSSvpZ">newline</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">newline</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE10whitespaceSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/whitespace" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE10whitespaceSSvpZ">whitespace</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">whitespace</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE6lengthSivp"></a>
+                    <a name="//apple_ref/swift/Property/length" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE6lengthSivp">length</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">length</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE7trimmedSSvp"></a>
+                    <a name="//apple_ref/swift/Property/trimmed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE7trimmedSSvp">trimmed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Trims Whitespaces and Newlines</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">trimmed</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE017trimmedLeadingAndD0SSvp"></a>
+                    <a name="//apple_ref/swift/Property/trimmedLeadingAndLeading" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE017trimmedLeadingAndD0SSvp">trimmedLeadingAndLeading</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Trims trailing and leading whitespaces</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">trimmedLeadingAndLeading</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE2nsSo8NSStringCvp"></a>
+                    <a name="//apple_ref/swift/Property/ns" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE2nsSo8NSStringCvp">ns</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Converts String to NSString</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">ns</span><span class="p">:</span> <span class="kt">NSString</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE10floatValueSfvp"></a>
+                    <a name="//apple_ref/swift/Property/floatValue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE10floatValueSfvp">floatValue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">floatValue</span><span class="p">:</span> <span class="kt">Float</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE12integerValueSivp"></a>
+                    <a name="//apple_ref/swift/Property/integerValue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE12integerValueSivp">integerValue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">integerValue</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE3nibSo5UINibCvp"></a>
+                    <a name="//apple_ref/swift/Property/nib" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE3nibSo5UINibCvp">nib</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">nib</span><span class="p">:</span> <span class="kt">UINib</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE10isNotEmptySbvp"></a>
+                    <a name="//apple_ref/swift/Property/isNotEmpty" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE10isNotEmptySbvp">isNotEmpty</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A Boolean value indicating whether the collection is not empty.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isNotEmpty</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE8toDoubleSdvp"></a>
+                    <a name="//apple_ref/swift/Property/toDouble" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE8toDoubleSdvp">toDouble</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Converts formatted double</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">toDouble</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitEySSSgSJSgcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitEySSSgSJSgcfc">init(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Init with optional character</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">c</span><span class="p">:</span> <span class="kt">Character</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>c</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Optinal Character</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Crypto"></a>
+                <a name="//apple_ref/swift/Section/Crypto" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Crypto"></a>
+                  <h3 class="section-name"><p>Crypto</p>
+</h3>
                 </div>
-                <ul>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE4sha1SSSgvp"></a>
-                      <a name="//apple_ref/swift/Property/sha1" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE4sha1SSSgvp">sha1</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Undocumented</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">sha1</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                </ul>
               </div>
-              <div class="task-group">
-                <div class="task-name-container">
-                  <a name="/HTML"></a>
-                  <a name="//apple_ref/swift/Section/HTML" class="dashAnchor"></a>
-                  <div class="section-name-container">
-                    <a class="section-name-link" href="#/HTML"></a>
-                    <h3 class="section-name"><p>HTML</p>
-</h3>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE4sha1SSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/sha1" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE4sha1SSSgvp">sha1</a>
+                    </code>
                   </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">sha1</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/HTML"></a>
+                <a name="//apple_ref/swift/Section/HTML" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/HTML"></a>
+                  <h3 class="section-name"><p>HTML</p>
+</h3>
                 </div>
-                <ul>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE21html2AttributedStringSo09NSMutabledE0CSgvp"></a>
-                      <a name="//apple_ref/swift/Property/html2AttributedString" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE21html2AttributedStringSo09NSMutabledE0CSgvp">html2AttributedString</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Converts HTML to NSMutableAttributedString</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">html2AttributedString</span><span class="p">:</span> <span class="kt">NSMutableAttributedString</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                </ul>
               </div>
-              <div class="task-group">
-                <div class="task-name-container">
-                  <a name="/URL%20Helpers"></a>
-                  <a name="//apple_ref/swift/Section/URL Helpers" class="dashAnchor"></a>
-                  <div class="section-name-container">
-                    <a class="section-name-link" href="#/URL%20Helpers"></a>
-                    <h3 class="section-name"><p>URL Helpers</p>
-</h3>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE21html2AttributedStringSo09NSMutabledE0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/html2AttributedString" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE21html2AttributedStringSo09NSMutabledE0CSgvp">html2AttributedString</a>
+                    </code>
                   </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Converts HTML to NSMutableAttributedString</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">html2AttributedString</span><span class="p">:</span> <span class="kt">NSMutableAttributedString</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/URL%20Helpers"></a>
+                <a name="//apple_ref/swift/Section/URL Helpers" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/URL%20Helpers"></a>
+                  <h3 class="section-name"><p>URL Helpers</p>
+</h3>
                 </div>
-                <ul>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE10urlEncodedSSSgvp"></a>
-                      <a name="//apple_ref/swift/Property/urlEncoded" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE10urlEncodedSSSgvp">urlEncoded</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Encodes URL</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">urlEncoded</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE10urlDecodedSSSgvp"></a>
-                      <a name="//apple_ref/swift/Property/urlDecoded" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE10urlDecodedSSSgvp">urlDecoded</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Decodes URL Spaces</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">urlDecoded</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE3url10Foundation3URLVSgvp"></a>
-                      <a name="//apple_ref/swift/Property/url" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE3url10Foundation3URLVSgvp">url</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>String to URL</p>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                </ul>
               </div>
-              <div class="task-group">
-                <div class="task-name-container">
-                  <a name="/Label"></a>
-                  <a name="//apple_ref/swift/Section/Label" class="dashAnchor"></a>
-                  <div class="section-name-container">
-                    <a class="section-name-link" href="#/Label"></a>
-                    <h3 class="section-name"><p>Label</p>
-</h3>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE10urlEncodedSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/urlEncoded" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE10urlEncodedSSSgvp">urlEncoded</a>
+                    </code>
                   </div>
-                </div>
-                <ul>
-                  <li class="item">
-                    <div>
-                      <code>
-                      <a name="/s:SS14FCExtensionKitE14getLabelHeight5width4font13numberOfLines13lineBreakMode12CoreGraphics7CGFloatVAI_So6UIFontCSiSo06NSLinelM0VtF"></a>
-                      <a name="//apple_ref/swift/Method/getLabelHeight(width:font:numberOfLines:lineBreakMode:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SS14FCExtensionKitE14getLabelHeight5width4font13numberOfLines13lineBreakMode12CoreGraphics7CGFloatVAI_So6UIFontCSiSo06NSLinelM0VtF">getLabelHeight(width:<wbr>font:<wbr>numberOfLines:<wbr>lineBreakMode:<wbr>)</a>
-                      </code>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Returns label&rsquo;s height</p>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Encodes URL</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">urlEncoded</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getLabelHeight</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE10urlDecodedSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/urlDecoded" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE10urlDecodedSSSgvp">urlDecoded</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Decodes URL Spaces</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">urlDecoded</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE3url10Foundation3URLVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/url" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE3url10Foundation3URLVSgvp">url</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>String to URL</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Label"></a>
+                <a name="//apple_ref/swift/Section/Label" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Label"></a>
+                  <h3 class="section-name"><p>Label</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS14FCExtensionKitE14getLabelHeight5width4font13numberOfLines13lineBreakMode12CoreGraphics7CGFloatVAI_So6UIFontCSiSo06NSLinelM0VtF"></a>
+                    <a name="//apple_ref/swift/Method/getLabelHeight(width:font:numberOfLines:lineBreakMode:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS14FCExtensionKitE14getLabelHeight5width4font13numberOfLines13lineBreakMode12CoreGraphics7CGFloatVAI_So6UIFontCSiSo06NSLinelM0VtF">getLabelHeight(width:<wbr>font:<wbr>numberOfLines:<wbr>lineBreakMode:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns label&rsquo;s height</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getLabelHeight</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span>
                     <span class="nv">font</span><span class="p">:</span> <span class="kt">UIFont</span><span class="p">,</span>
                     <span class="nv">numberOfLines</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
                     <span class="nv">lineBreakMode</span><span class="p">:</span> <span class="kt">NSLineBreakMode</span> <span class="o">=</span> <span class="o">.</span><span class="n">byWordWrapping</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
 
-                          </div>
                         </div>
-                        <div>
-                          <h4>Parameters</h4>
-                          <table class="graybox">
-                            <tbody>
-                              <tr>
-                                <td>
-                                  <code>
-                                  <em>width</em>
-                                  </code>
-                                </td>
-                                <td>
-                                  <div>
-                                    <p>Label&rsquo;s width</p>
-                                  </div>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <code>
-                                  <em>font</em>
-                                  </code>
-                                </td>
-                                <td>
-                                  <div>
-                                    <p>Used font</p>
-                                  </div>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <code>
-                                  <em>numberOfLines</em>
-                                  </code>
-                                </td>
-                                <td>
-                                  <div>
-                                    <p>Number of lines</p>
-                                  </div>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <code>
-                                  <em>lineBreakMode</em>
-                                  </code>
-                                </td>
-                                <td>
-                                  <div>
-                                    <p>Line break mode</p>
-                                  </div>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                        <div>
-                          <h4>Return Value</h4>
-                          <p>Height</p>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </section>
-          </section>
-        </article>
-      </div>
-      <div class="nav-wrapper">
-        <nav class="nav-bottom">
-          <ul class="nav-groups">
-            <li class="nav-group-name">
-              <a href="../Classes.html">Classes</a>
-              <ul class="nav-group-tasks">
-                <li class="nav-group-task">
-                  <a href="../Classes/Logger.html">Logger</a>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>width</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Label&rsquo;s width</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>font</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Used font</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>numberOfLines</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Number of lines</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>lineBreakMode</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Line break mode</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Height</p>
+                      </div>
+                    </section>
+                  </div>
                 </li>
               </ul>
-            </li>
-            <li class="nav-group-name">
-              <a href="../Enums.html">Enumerations</a>
-              <ul class="nav-group-tasks">
-                <li class="nav-group-task">
-                  <a href="../Enums/LogType.html">LogType</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Enums/URLSchemeType.html">URLSchemeType</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-group-name">
-              <a href="../Extensions.html">Extensions</a>
-              <ul class="nav-group-tasks">
-                <li class="nav-group-task">
-                  <a href="../Extensions/Array.html">Array</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/Bool.html">Bool</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/CGFloat.html">CGFloat</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/CGRect.html">CGRect</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/CGSize.html">CGSize</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/Collection.html">Collection</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/CountableClosedRange.html">CountableClosedRange</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/Data.html">Data</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/Date.html">Date</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/Dictionary.html">Dictionary</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/Double.html">Double</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/Error.html">Error</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/IndexPath.html">IndexPath</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/Int.html">Int</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/KingfisherWrapper.html">KingfisherWrapper</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/NSMutableAttributedString.html">NSMutableAttributedString</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/NSNumber.html">NSNumber</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/NSString.html">NSString</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/String.html">String</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/UIApplication.html">UIApplication</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/UICollectionView.html">UICollectionView</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/UIColor.html">UIColor</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/UIEdgeInsets.html">UIEdgeInsets</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/UIImage.html">UIImage</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/UIImageView.html">UIImageView</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/UILabel.html">UILabel</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/UINavigationController.html">UINavigationController</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/UIScrollView.html">UIScrollView</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/UIScrollView/ScrollingDirection.html">– ScrollingDirection</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/UITableView.html">UITableView</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/UIView.html">UIView</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/UIView/ViewSide.html">– ViewSide</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/UIViewController.html">UIViewController</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/URL.html">URL</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/URL/SearchEngine.html">– SearchEngine</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/URLRequest.html">URLRequest</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-group-name">
-              <a href="../Protocols.html">Protocols</a>
-              <ul class="nav-group-tasks">
-                <li class="nav-group-task">
-                  <a href="../Protocols/URLConvertible.html">URLConvertible</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-group-name">
-              <a href="../Structs.html">Structures</a>
-              <ul class="nav-group-tasks">
-                <li class="nav-group-task">
-                  <a href="../Structs/WebPProcessor.html">WebPProcessor</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Structs/WebPSerializer.html">WebPSerializer</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="footer-wrapper">
-        <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://fatihcimen.com" target="_blank" rel="external">Fatih</a>. All rights reserved. (Last updated: 2021-05-14)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+            </div>
+          </div>
         </section>
-      </div>
+
+      </article>
     </div>
+    <section class="footer">
+      <p>&copy; 2021 <a class="link" href="https://fatihcimen.com" target="_blank" rel="external">Fatih</a>. All rights reserved. (Last updated: 2021-05-14)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
   </body>
 </div>
 </html>
