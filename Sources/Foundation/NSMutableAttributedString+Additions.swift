@@ -42,4 +42,23 @@ public extension NSMutableAttributedString {
         let range: NSRange = self.mutableString.range(of: text, options: .caseInsensitive)
         self.addAttributes(attributes, range: range)
     }
+    
+    /// Set highlight for specific text in attributed string
+    ///
+    /// - Parameters:
+    ///   - text: Target Text
+    ///   - color: Changing color
+    ///   - font: Changing font
+    func highlight(text: String, color: UIColor, font: UIFont) -> NSMutableAttributedString {
+        if let regex = try? NSRegularExpression(pattern: "\(text)", options: []) {
+            let matchesArray = regex.matches(in: self.string, options: [], range: NSRange(location: .zero, length: self.length))
+            for match in matchesArray {
+                let attributedText = NSMutableAttributedString(string: text)
+                attributedText.addAttribute(.backgroundColor, value: color, range: NSRange(location: .zero, length: attributedText.length))
+                attributedText.addAttribute(.font, value: font, range: NSRange(location: .zero, length: attributedText.length))
+                self.replaceCharacters(in: match.range, with: attributedText)
+            }
+        }
+        return self
+    }
 }
