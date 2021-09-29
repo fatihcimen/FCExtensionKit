@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import FCExtensionKit
 
 class Error_AdditionsTests: XCTestCase {
 
@@ -23,3 +24,5 @@ class Error_AdditionsTests: XCTestCase {
     }
 
 }
+
+

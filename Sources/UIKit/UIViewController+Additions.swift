@@ -81,4 +81,28 @@ public extension UIViewController {
         controller.addAction(UIAlertAction(title: buttonTitle, style: .default, handler: nil))
         present(controller, animated: true, completion: nil)
     }
+    
+    /// Generates a UIAlertController with action and shows on viewController
+    ///
+    /// if viewController presented, it does not show alert.
+    /// it adds statically 'Tamam' button and 'İptal' button
+    ///
+    /// - Parameters:
+    ///   - title: UIAlertController title
+    ///   - message: UIAlertController message
+    ///   - okButtonTitle: ok button text
+    ///   - cancelButtonTitle: cancel button text
+    ///   - okButtonHandler: ok button completion handler.
+    
+    @objc func showAlert(title: String, message: String, okButtonTitle: String = "Tamam", cancelButtonTitle: String = "İptal", okButtonHandler: @escaping () -> Void) {
+        if isPresentedViewController { return }
+        
+        let controller = UIAlertController(title: title, message: message, preferredStyle: .alert)
+    
+        controller.addAction(UIAlertAction(title: cancelButtonTitle, style: .cancel))
+        controller.addAction(UIAlertAction(title: okButtonTitle, style: .default, handler: { action in
+            okButtonHandler()
+        }))
+        present(controller, animated: true, completion: nil)
+    }
 }

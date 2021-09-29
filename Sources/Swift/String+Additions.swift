@@ -203,3 +203,77 @@ public extension String {
         return label.height
     }
 }
+
+public extension String {
+    
+    /// Returns string's height
+    ///
+    /// - Parameters:
+    ///   - containerWidth: Container width of string
+    ///   - font: Used font
+    ///   - alignment: Text Alignment
+    ///   - lineBreakMode: Line break mode
+    ///   - numberOfLines: Number of lines
+    /// - Returns: Height
+    func getHeightWithAttributes(containerWidth: CGFloat,
+                                  font: UIFont,
+                                  alignment: NSTextAlignment = .left,
+                                  lineBreakMode: NSLineBreakMode = .byWordWrapping,
+                                  lineSpacing: CGFloat? = nil ) -> CGFloat {
+        
+        let attributedString = self.getAttributedString(font: font, alignment: alignment, lineBreakMode: lineBreakMode, lineSpacing: lineSpacing)
+        
+        return attributedString.getHeight(containerWidth: containerWidth)
+    }
+}
+
+public extension NSAttributedString {
+    
+    /// Returns attributed string's height
+    ///
+    /// - Parameters:
+    ///   - containerWidth: Container width of attributed string
+    /// - Returns: Height
+    func getHeight(containerWidth: CGFloat) -> CGFloat {
+        let rect = self.boundingRect(with: CGSize(width: containerWidth, height: CGFloat.greatestFiniteMagnitude),
+                                     options: [.usesLineFragmentOrigin, .usesFontLeading],
+                                     context: nil)
+        
+        return ceil(rect.size.height)
+    }
+}
+
+public extension String {
+    
+    /// Returns string's attributed string
+    ///
+    /// - Parameters:
+    ///   - font: Used font
+    ///   - alignment: Text Alignment
+    ///   - lineBreakMode: Line break mode
+    ///   - lineSpacing: The distance between two lines
+    ///   - textColor: Text Color
+    /// - Returns: Attributed string
+    func getAttributedString(font: UIFont,
+                             alignment: NSTextAlignment = .left,
+                             lineBreakMode: NSLineBreakMode = .byWordWrapping,
+                             lineSpacing: CGFloat? = nil,
+                             textColor: UIColor? = nil) -> NSAttributedString {
+        
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.alignment = alignment
+        paragraphStyle.lineBreakMode = lineBreakMode
+        
+        if let spacing = lineSpacing {
+            paragraphStyle.lineSpacing = spacing
+        }
+        
+        var attributes: [NSAttributedString.Key: Any] = [NSAttributedString.Key.font: font,
+                                                         NSAttributedString.Key.paragraphStyle: paragraphStyle]
+        if let color = textColor {
+            attributes[NSAttributedString.Key.foregroundColor] = color
+        }
+        
+        return NSAttributedString(string: self, attributes: attributes)
+    }
+}

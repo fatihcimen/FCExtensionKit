@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FCExtensionKit'
-  s.version          = '1.1.0'
+  s.version          = '1.1.2'
   s.swift_version    = '5.0'
   s.summary          = 'A little helper library for Swift.'
 
