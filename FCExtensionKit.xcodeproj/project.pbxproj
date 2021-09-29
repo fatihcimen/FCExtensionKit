@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D06791AE2704736A00E369CF /* Data+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06791AD2704736A00E369CF /* Data+Additions.swift */; };
 		FEF297BE264DC78300E50ACB /* FCExtensionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF297B4264DC78300E50ACB /* FCExtensionKit.framework */; };
 		FEF297C5264DC78300E50ACB /* FCExtensionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF297B7264DC78300E50ACB /* FCExtensionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FEF29804264DC81900E50ACB /* URLConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF297DB264DC81900E50ACB /* URLConvertible.swift */; };
@@ -88,6 +89,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D06791AD2704736A00E369CF /* Data+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Additions.swift"; sourceTree = "<group>"; };
 		FEF297B4264DC78300E50ACB /* FCExtensionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FCExtensionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF297B7264DC78300E50ACB /* FCExtensionKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCExtensionKit.h; sourceTree = "<group>"; };
 		FEF297B8264DC78300E50ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				FEF297EA264DC81900E50ACB /* Bool+Additions.swift */,
 				FEF297EB264DC81900E50ACB /* String+Additions.swift */,
 				FEF297EC264DC81900E50ACB /* Dictionary+Additions.swift */,
+				D06791AD2704736A00E369CF /* Data+Additions.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -511,6 +514,7 @@
 				FEF29822264DC81900E50ACB /* UITableView+Additions.swift in Sources */,
 				FEF29816264DC81900E50ACB /* CGFloat+Additions.swift in Sources */,
 				FEF29806264DC81900E50ACB /* URL+Additions.swift in Sources */,
+				D06791AE2704736A00E369CF /* Data+Additions.swift in Sources */,
 				FEF2980A264DC81900E50ACB /* IndexPath+Additions.swift in Sources */,
 				FEF29824264DC81900E50ACB /* WebPSerializer.swift in Sources */,
 				FEF29805264DC81900E50ACB /* NSString+Additions.swift in Sources */,
