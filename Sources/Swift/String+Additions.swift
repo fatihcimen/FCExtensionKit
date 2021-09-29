@@ -112,6 +112,12 @@ public extension String {
         
         return hash.map { String(format: "%02x", $0) }.joined()
     }
+    
+    var sha256: String? {
+        guard let stringData = self.data(using: .utf8) else { return nil }
+        
+        return stringData.sha256()
+    }
 }
 
 // MARK: - HTML
