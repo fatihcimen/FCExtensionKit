@@ -104,6 +104,12 @@ class String_AdditionsTests: XCTestCase {
         XCTAssertEqual(lazyDog.sha1, "2fd4e1c67a2d28fced849ee1bb76e7391b93eb12")
     }
     
+    func testSha256() {
+        let string = "This text is sha256"
+        
+        XCTAssertEqual(string.sha256, "5023d3699eafa03cabe24bf45ec963d3c637eee203796f66f597da5bc953fb77")
+    }
+    
     func testHtml2AttributedString() {
         let attributedString = NSAttributedString(string: "Hello World", attributes: [
                                                                                         .font: UIFont(name: "TimesNewRomanPS-BoldMT", size: 12) as Any,
