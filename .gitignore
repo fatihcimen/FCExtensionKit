@@ -19,5 +19,4 @@ DerivedData
 .build
 
 Package.pins
-Package.resolved
 .swiftpm
