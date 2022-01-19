@@ -14,28 +14,18 @@ let package = Package(
             name: "FCExtensionKit",
             targets: ["FCExtensionKit"]),
     ],
-    dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/onevcat/Kingfisher.git", from: "6.3.0"),
-        .package(name: "libwebp", url: "https://github.com/SDWebImage/libwebp-Xcode", from: "1.1.0")
-    ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "FCExtensionKit",
-            dependencies: ["Kingfisher", "KingfisherWebP-ObjC"],
             path: "Sources",
-            exclude: ["KingfisherWebP-ObjC", "Info.plist"]),
-        
-        .target(
-            name: "KingfisherWebP-ObjC",
-            dependencies: ["libwebp"],
             exclude: ["Info.plist"]),
         
-        .testTarget(
-            name: "FCExtensionKitTests",
-            dependencies: ["FCExtensionKit"],
-            path: "Tests"),
+            .testTarget(
+                name: "FCExtensionKitTests",
+                dependencies: ["FCExtensionKit"],
+                path: "Tests",
+            exclude: ["Supporting Files/Info.plist"]),
     ]
 )

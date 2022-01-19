@@ -14,5 +14,3 @@ FOUNDATION_EXPORT double FCExtensionKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char FCExtensionKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FCExtensionKit/PublicHeader.h>
-
-#import <FCExtensionKit/CGImage+WebP.h>

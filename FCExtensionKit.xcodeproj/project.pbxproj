@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -38,20 +38,12 @@
 		FEF2981B264DC81900E50ACB /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF297F5264DC81900E50ACB /* UIViewController+Additions.swift */; };
 		FEF2981C264DC81900E50ACB /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF297F6264DC81900E50ACB /* UIColor+Additions.swift */; };
 		FEF2981D264DC81900E50ACB /* UIApplication+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF297F7264DC81900E50ACB /* UIApplication+Additions.swift */; };
-		FEF2981E264DC81900E50ACB /* UIImageView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF297F8264DC81900E50ACB /* UIImageView+Additions.swift */; };
 		FEF2981F264DC81900E50ACB /* UILabel+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF297F9264DC81900E50ACB /* UILabel+Additions.swift */; };
 		FEF29820264DC81900E50ACB /* UIEdgeInsets+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF297FA264DC81900E50ACB /* UIEdgeInsets+Additions.swift */; };
 		FEF29821264DC81900E50ACB /* UIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF297FB264DC81900E50ACB /* UIScrollView+Additions.swift */; };
 		FEF29822264DC81900E50ACB /* UITableView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF297FC264DC81900E50ACB /* UITableView+Additions.swift */; };
 		FEF29823264DC81900E50ACB /* UICollectionView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF297FD264DC81900E50ACB /* UICollectionView+Additions.swift */; };
-		FEF29824264DC81900E50ACB /* WebPSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF297FF264DC81900E50ACB /* WebPSerializer.swift */; };
-		FEF29825264DC81900E50ACB /* WebPProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF29800264DC81900E50ACB /* WebPProcessor.swift */; };
-		FEF29826264DC81900E50ACB /* Image+WebP.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF29801264DC81900E50ACB /* Image+WebP.swift */; };
 		FEF29827264DC81900E50ACB /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF29803264DC81900E50ACB /* Logger.swift */; };
-		FEF2982C264DC83300E50ACB /* CGImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF29829264DC83300E50ACB /* CGImage+WebP.m */; };
-		FEF2982D264DC83300E50ACB /* CGImage+WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF2982B264DC83300E50ACB /* CGImage+WebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEF29868264DC88000E50ACB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FEF29867264DC88000E50ACB /* Kingfisher */; };
-		FEF2986B264DC89800E50ACB /* libwebp in Frameworks */ = {isa = PBXBuildFile; productRef = FEF2986A264DC89800E50ACB /* libwebp */; };
 		FEF2986C264DC90900E50ACB /* Int+AdditionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF29842264DC85200E50ACB /* Int+AdditionsTests.swift */; };
 		FEF2986D264DC9F800E50ACB /* String+AdditionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF29841264DC85200E50ACB /* String+AdditionsTests.swift */; };
 		FEF2986E264DCA0300E50ACB /* UIImage+AdditionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF29837264DC85200E50ACB /* UIImage+AdditionsTests.swift */; };
@@ -98,7 +90,6 @@
 		FEF297B7264DC78300E50ACB /* FCExtensionKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCExtensionKit.h; sourceTree = "<group>"; };
 		FEF297B8264DC78300E50ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF297BD264DC78300E50ACB /* FCExtensionKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FCExtensionKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEF297C4264DC78300E50ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF297DB264DC81900E50ACB /* URLConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConvertible.swift; sourceTree = "<group>"; };
 		FEF297DC264DC81900E50ACB /* NSString+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Additions.swift"; sourceTree = "<group>"; };
 		FEF297DD264DC81900E50ACB /* URL+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Additions.swift"; sourceTree = "<group>"; };
@@ -125,18 +116,12 @@
 		FEF297F5264DC81900E50ACB /* UIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
 		FEF297F6264DC81900E50ACB /* UIColor+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
 		FEF297F7264DC81900E50ACB /* UIApplication+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Additions.swift"; sourceTree = "<group>"; };
-		FEF297F8264DC81900E50ACB /* UIImageView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Additions.swift"; sourceTree = "<group>"; };
 		FEF297F9264DC81900E50ACB /* UILabel+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Additions.swift"; sourceTree = "<group>"; };
 		FEF297FA264DC81900E50ACB /* UIEdgeInsets+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Additions.swift"; sourceTree = "<group>"; };
 		FEF297FB264DC81900E50ACB /* UIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Additions.swift"; sourceTree = "<group>"; };
 		FEF297FC264DC81900E50ACB /* UITableView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Additions.swift"; sourceTree = "<group>"; };
 		FEF297FD264DC81900E50ACB /* UICollectionView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Additions.swift"; sourceTree = "<group>"; };
-		FEF297FF264DC81900E50ACB /* WebPSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPSerializer.swift; sourceTree = "<group>"; };
-		FEF29800264DC81900E50ACB /* WebPProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPProcessor.swift; sourceTree = "<group>"; };
-		FEF29801264DC81900E50ACB /* Image+WebP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+WebP.swift"; sourceTree = "<group>"; };
 		FEF29803264DC81900E50ACB /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		FEF29829264DC83300E50ACB /* CGImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGImage+WebP.m"; sourceTree = "<group>"; };
-		FEF2982B264DC83300E50ACB /* CGImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGImage+WebP.h"; sourceTree = "<group>"; };
 		FEF2982F264DC85200E50ACB /* CGSize+AdditionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+AdditionsTests.swift"; sourceTree = "<group>"; };
 		FEF29830264DC85200E50ACB /* CGFloat+AdditionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+AdditionsTests.swift"; sourceTree = "<group>"; };
 		FEF29831264DC85200E50ACB /* CGRect+AdditionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+AdditionsTests.swift"; sourceTree = "<group>"; };
@@ -170,8 +155,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF2986B264DC89800E50ACB /* libwebp in Frameworks */,
-				FEF29868264DC88000E50ACB /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,10 +190,8 @@
 		FEF297B6264DC78300E50ACB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				FEF29828264DC83300E50ACB /* KingfisherWebP-ObjC */,
 				FEF297ED264DC81900E50ACB /* Core Graphics */,
 				FEF297DA264DC81900E50ACB /* Foundation */,
-				FEF297FE264DC81900E50ACB /* Kingfisher+WebP */,
 				FEF29802264DC81900E50ACB /* Logger */,
 				FEF297E3264DC81900E50ACB /* Swift */,
 				FEF297F1264DC81900E50ACB /* UIKit */,
@@ -227,7 +208,6 @@
 				FEF29843264DC85200E50ACB /* Foundation */,
 				FEF2983B264DC85200E50ACB /* Swift */,
 				FEF29832264DC85200E50ACB /* UIKit */,
-				FEF297C4264DC78300E50ACB /* Info.plist */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -284,7 +264,6 @@
 				FEF297F5264DC81900E50ACB /* UIViewController+Additions.swift */,
 				FEF297F6264DC81900E50ACB /* UIColor+Additions.swift */,
 				FEF297F7264DC81900E50ACB /* UIApplication+Additions.swift */,
-				FEF297F8264DC81900E50ACB /* UIImageView+Additions.swift */,
 				FEF297F9264DC81900E50ACB /* UILabel+Additions.swift */,
 				FEF297FA264DC81900E50ACB /* UIEdgeInsets+Additions.swift */,
 				FEF297FB264DC81900E50ACB /* UIScrollView+Additions.swift */,
@@ -294,39 +273,12 @@
 			path = UIKit;
 			sourceTree = "<group>";
 		};
-		FEF297FE264DC81900E50ACB /* Kingfisher+WebP */ = {
-			isa = PBXGroup;
-			children = (
-				FEF297FF264DC81900E50ACB /* WebPSerializer.swift */,
-				FEF29800264DC81900E50ACB /* WebPProcessor.swift */,
-				FEF29801264DC81900E50ACB /* Image+WebP.swift */,
-			);
-			path = "Kingfisher+WebP";
-			sourceTree = "<group>";
-		};
 		FEF29802264DC81900E50ACB /* Logger */ = {
 			isa = PBXGroup;
 			children = (
 				FEF29803264DC81900E50ACB /* Logger.swift */,
 			);
 			path = Logger;
-			sourceTree = "<group>";
-		};
-		FEF29828264DC83300E50ACB /* KingfisherWebP-ObjC */ = {
-			isa = PBXGroup;
-			children = (
-				FEF29829264DC83300E50ACB /* CGImage+WebP.m */,
-				FEF2982A264DC83300E50ACB /* include */,
-			);
-			path = "KingfisherWebP-ObjC";
-			sourceTree = "<group>";
-		};
-		FEF2982A264DC83300E50ACB /* include */ = {
-			isa = PBXGroup;
-			children = (
-				FEF2982B264DC83300E50ACB /* CGImage+WebP.h */,
-			);
-			path = include;
 			sourceTree = "<group>";
 		};
 		FEF2982E264DC85200E50ACB /* Core Graphics */ = {
@@ -391,7 +343,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF2982D264DC83300E50ACB /* CGImage+WebP.h in Headers */,
 				FEF297C5264DC78300E50ACB /* FCExtensionKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,8 +365,6 @@
 			);
 			name = FCExtensionKit;
 			packageProductDependencies = (
-				FEF29867264DC88000E50ACB /* Kingfisher */,
-				FEF2986A264DC89800E50ACB /* libwebp */,
 			);
 			productName = FCExtensionKit;
 			productReference = FEF297B4264DC78300E50ACB /* FCExtensionKit.framework */;
@@ -466,8 +415,6 @@
 			);
 			mainGroup = FEF297AA264DC78300E50ACB;
 			packageReferences = (
-				FEF29866264DC88000E50ACB /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				FEF29869264DC89800E50ACB /* XCRemoteSwiftPackageReference "libwebp-Xcode" */,
 			);
 			productRefGroup = FEF297B5264DC78300E50ACB /* Products */;
 			projectDirPath = "";
@@ -503,27 +450,22 @@
 			files = (
 				FEF29815264DC81900E50ACB /* CGSize+Additions.swift in Sources */,
 				FE7B494926C482C8009AAB82 /* CodableEnum.swift in Sources */,
-				FEF29826264DC81900E50ACB /* Image+WebP.swift in Sources */,
 				FEF29821264DC81900E50ACB /* UIScrollView+Additions.swift in Sources */,
 				FEF2980E264DC81900E50ACB /* Collection+Additions.swift in Sources */,
 				FEF2981F264DC81900E50ACB /* UILabel+Additions.swift in Sources */,
 				FEF2980B264DC81900E50ACB /* NSMutableAttributedString+Additions.swift in Sources */,
 				FEF29813264DC81900E50ACB /* String+Additions.swift in Sources */,
-				FEF29825264DC81900E50ACB /* WebPProcessor.swift in Sources */,
 				FEF29804264DC81900E50ACB /* URLConvertible.swift in Sources */,
 				FEF2980F264DC81900E50ACB /* Int+Additions.swift in Sources */,
 				FEF2981C264DC81900E50ACB /* UIColor+Additions.swift in Sources */,
-				FEF2981E264DC81900E50ACB /* UIImageView+Additions.swift in Sources */,
 				FEF29814264DC81900E50ACB /* Dictionary+Additions.swift in Sources */,
 				FEF2981A264DC81900E50ACB /* UIView+Additions.swift in Sources */,
 				FEF29819264DC81900E50ACB /* UINavigationController+Additions.swift in Sources */,
-				FEF2982C264DC83300E50ACB /* CGImage+WebP.m in Sources */,
 				FEF29822264DC81900E50ACB /* UITableView+Additions.swift in Sources */,
 				FEF29816264DC81900E50ACB /* CGFloat+Additions.swift in Sources */,
 				FEF29806264DC81900E50ACB /* URL+Additions.swift in Sources */,
 				D06791AE2704736A00E369CF /* Data+Additions.swift in Sources */,
 				FEF2980A264DC81900E50ACB /* IndexPath+Additions.swift in Sources */,
-				FEF29824264DC81900E50ACB /* WebPSerializer.swift in Sources */,
 				FEF29805264DC81900E50ACB /* NSString+Additions.swift in Sources */,
 				FEF29817264DC81900E50ACB /* CGRect+Additions.swift in Sources */,
 				FEF29807264DC81900E50ACB /* NSNumber+Additions.swift in Sources */,
@@ -764,7 +706,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X5Z578SC5W;
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -783,7 +725,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X5Z578SC5W;
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -827,38 +769,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		FEF29866264DC88000E50ACB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
-			requirement = {
-				kind = exactVersion;
-				version = 6.3.0;
-			};
-		};
-		FEF29869264DC89800E50ACB /* XCRemoteSwiftPackageReference "libwebp-Xcode" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/libwebp-Xcode";
-			requirement = {
-				kind = exactVersion;
-				version = 1.2.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		FEF29867264DC88000E50ACB /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FEF29866264DC88000E50ACB /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-		FEF2986A264DC89800E50ACB /* libwebp */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FEF29869264DC89800E50ACB /* XCRemoteSwiftPackageReference "libwebp-Xcode" */;
-			productName = libwebp;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FEF297AB264DC78300E50ACB /* Project object */;
 }
