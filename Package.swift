@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "FCExtensionKit",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v12)
     ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/onevcat/Kingfisher.git", from: "6.3.0"),
+        .package(url: "https://github.com/onevcat/Kingfisher.git", from: "7.1.2"),
         .package(name: "libwebp", url: "https://github.com/SDWebImage/libwebp-Xcode", from: "1.1.0")
     ],
     targets: [
