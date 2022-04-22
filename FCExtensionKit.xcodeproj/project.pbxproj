@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A01455772812962200E89557 /* UICollectionViewCell+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01455762812962200E89557 /* UICollectionViewCell+Additions.swift */; };
+		A01455792812968600E89557 /* UITableViewCell+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01455782812968600E89557 /* UITableViewCell+Additions.swift */; };
+		A03050582812B88B0087489C /* FakeCellClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03050572812B88B0087489C /* FakeCellClasses.swift */; };
+		A030505A2812B8D90087489C /* UITableViewCell+AdditionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03050592812B8D90087489C /* UITableViewCell+AdditionsTests.swift */; };
+		A030507E2812C0520087489C /* UICollectionViewCell+AdditionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030507D2812C0520087489C /* UICollectionViewCell+AdditionsTests.swift */; };
 		D06791AE2704736A00E369CF /* Data+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06791AD2704736A00E369CF /* Data+Additions.swift */; };
 		FE7B494926C482C8009AAB82 /* CodableEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B494826C482C8009AAB82 /* CodableEnum.swift */; };
 		FE7B494D26C485D7009AAB82 /* CodableEnumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B494C26C485D7009AAB82 /* CodableEnumTests.swift */; };
@@ -91,6 +96,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A01455762812962200E89557 /* UICollectionViewCell+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Additions.swift"; sourceTree = "<group>"; };
+		A01455782812968600E89557 /* UITableViewCell+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Additions.swift"; sourceTree = "<group>"; };
+		A03050572812B88B0087489C /* FakeCellClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCellClasses.swift; sourceTree = "<group>"; };
+		A03050592812B8D90087489C /* UITableViewCell+AdditionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+AdditionsTests.swift"; sourceTree = "<group>"; };
+		A030507D2812C0520087489C /* UICollectionViewCell+AdditionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+AdditionsTests.swift"; sourceTree = "<group>"; };
 		D06791AD2704736A00E369CF /* Data+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Additions.swift"; sourceTree = "<group>"; };
 		FE7B494826C482C8009AAB82 /* CodableEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableEnum.swift; sourceTree = "<group>"; };
 		FE7B494C26C485D7009AAB82 /* CodableEnumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableEnumTests.swift; sourceTree = "<group>"; };
@@ -186,6 +196,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A03050562812B8670087489C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A03050572812B88B0087489C /* FakeCellClasses.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		FEF297AA264DC78300E50ACB = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +308,8 @@
 				FEF297FB264DC81900E50ACB /* UIScrollView+Additions.swift */,
 				FEF297FC264DC81900E50ACB /* UITableView+Additions.swift */,
 				FEF297FD264DC81900E50ACB /* UICollectionView+Additions.swift */,
+				A01455762812962200E89557 /* UICollectionViewCell+Additions.swift */,
+				A01455782812968600E89557 /* UITableViewCell+Additions.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -342,6 +362,7 @@
 		FEF29832264DC85200E50ACB /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				A03050562812B8670087489C /* Utilities */,
 				FEF29833264DC85200E50ACB /* UIColor+AdditionsTests.swift */,
 				FEF29834264DC85200E50ACB /* Helpers.swift */,
 				FEF29835264DC85200E50ACB /* UIViewController+AdditionsTests.swift */,
@@ -350,6 +371,8 @@
 				FEF29838264DC85200E50ACB /* UIView+AdditionsTests.swift */,
 				FEF29839264DC85200E50ACB /* UIApplication+AdditionsTests.swift */,
 				FEF2983A264DC85200E50ACB /* UIEdgeInsets+AdditionsTests.swift */,
+				A03050592812B8D90087489C /* UITableViewCell+AdditionsTests.swift */,
+				A030507D2812C0520087489C /* UICollectionViewCell+AdditionsTests.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -507,6 +530,7 @@
 				FEF29821264DC81900E50ACB /* UIScrollView+Additions.swift in Sources */,
 				FEF2980E264DC81900E50ACB /* Collection+Additions.swift in Sources */,
 				FEF2981F264DC81900E50ACB /* UILabel+Additions.swift in Sources */,
+				A01455772812962200E89557 /* UICollectionViewCell+Additions.swift in Sources */,
 				FEF2980B264DC81900E50ACB /* NSMutableAttributedString+Additions.swift in Sources */,
 				FEF29813264DC81900E50ACB /* String+Additions.swift in Sources */,
 				FEF29825264DC81900E50ACB /* WebPProcessor.swift in Sources */,
@@ -529,6 +553,7 @@
 				FEF29807264DC81900E50ACB /* NSNumber+Additions.swift in Sources */,
 				FEF29823264DC81900E50ACB /* UICollectionView+Additions.swift in Sources */,
 				FEF29811264DC81900E50ACB /* CountableClosedRage+Additions.swift in Sources */,
+				A01455792812968600E89557 /* UITableViewCell+Additions.swift in Sources */,
 				FEF29818264DC81900E50ACB /* UIImage+Additions.swift in Sources */,
 				FEF29808264DC81900E50ACB /* Date+Additions.swift in Sources */,
 				FEF29812264DC81900E50ACB /* Bool+Additions.swift in Sources */,
@@ -555,11 +580,14 @@
 				FEF2986C264DC90900E50ACB /* Int+AdditionsTests.swift in Sources */,
 				FEF29873264DCA2000E50ACB /* CGRect+AdditionsTests.swift in Sources */,
 				FEF29890264DCA5400E50ACB /* UIApplication+AdditionsTests.swift in Sources */,
+				A030507E2812C0520087489C /* UICollectionViewCell+AdditionsTests.swift in Sources */,
 				FEF29874264DCA2400E50ACB /* URL+AdditionsTests.swift in Sources */,
 				FEF29875264DCA2700E50ACB /* NSString+AdditionsTests.swift in Sources */,
 				FEF29877264DCA2E00E50ACB /* IndexPath+AdditionsTests.swift in Sources */,
 				FEF2988D264DCA5400E50ACB /* UIEdgeInsets+AdditionsTests.swift in Sources */,
+				A030505A2812B8D90087489C /* UITableViewCell+AdditionsTests.swift in Sources */,
 				FEF29871264DCA1A00E50ACB /* CGSize+AdditionsTests.swift in Sources */,
+				A03050582812B88B0087489C /* FakeCellClasses.swift in Sources */,
 				FEF2988E264DCA5400E50ACB /* Collection+AdditionsTests.swift in Sources */,
 				FEF2986E264DCA0300E50ACB /* UIImage+AdditionsTests.swift in Sources */,
 				FEF29879264DCA3400E50ACB /* NSMutableAttributedString+AdditionsTests.swift in Sources */,
