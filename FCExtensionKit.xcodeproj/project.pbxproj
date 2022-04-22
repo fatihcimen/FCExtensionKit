@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A01455772812962200E89557 /* UICollectionViewCell+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01455762812962200E89557 /* UICollectionViewCell+Additions.swift */; };
+		A01455792812968600E89557 /* UITableViewCell+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01455782812968600E89557 /* UITableViewCell+Additions.swift */; };
 		D06791AE2704736A00E369CF /* Data+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06791AD2704736A00E369CF /* Data+Additions.swift */; };
 		FE7B494926C482C8009AAB82 /* CodableEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B494826C482C8009AAB82 /* CodableEnum.swift */; };
 		FE7B494D26C485D7009AAB82 /* CodableEnumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B494C26C485D7009AAB82 /* CodableEnumTests.swift */; };
@@ -91,6 +93,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A01455762812962200E89557 /* UICollectionViewCell+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Additions.swift"; sourceTree = "<group>"; };
+		A01455782812968600E89557 /* UITableViewCell+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Additions.swift"; sourceTree = "<group>"; };
 		D06791AD2704736A00E369CF /* Data+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Additions.swift"; sourceTree = "<group>"; };
 		FE7B494826C482C8009AAB82 /* CodableEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableEnum.swift; sourceTree = "<group>"; };
 		FE7B494C26C485D7009AAB82 /* CodableEnumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableEnumTests.swift; sourceTree = "<group>"; };
@@ -290,6 +294,8 @@
 				FEF297FB264DC81900E50ACB /* UIScrollView+Additions.swift */,
 				FEF297FC264DC81900E50ACB /* UITableView+Additions.swift */,
 				FEF297FD264DC81900E50ACB /* UICollectionView+Additions.swift */,
+				A01455762812962200E89557 /* UICollectionViewCell+Additions.swift */,
+				A01455782812968600E89557 /* UITableViewCell+Additions.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -507,6 +513,7 @@
 				FEF29821264DC81900E50ACB /* UIScrollView+Additions.swift in Sources */,
 				FEF2980E264DC81900E50ACB /* Collection+Additions.swift in Sources */,
 				FEF2981F264DC81900E50ACB /* UILabel+Additions.swift in Sources */,
+				A01455772812962200E89557 /* UICollectionViewCell+Additions.swift in Sources */,
 				FEF2980B264DC81900E50ACB /* NSMutableAttributedString+Additions.swift in Sources */,
 				FEF29813264DC81900E50ACB /* String+Additions.swift in Sources */,
 				FEF29825264DC81900E50ACB /* WebPProcessor.swift in Sources */,
@@ -529,6 +536,7 @@
 				FEF29807264DC81900E50ACB /* NSNumber+Additions.swift in Sources */,
 				FEF29823264DC81900E50ACB /* UICollectionView+Additions.swift in Sources */,
 				FEF29811264DC81900E50ACB /* CountableClosedRage+Additions.swift in Sources */,
+				A01455792812968600E89557 /* UITableViewCell+Additions.swift in Sources */,
 				FEF29818264DC81900E50ACB /* UIImage+Additions.swift in Sources */,
 				FEF29808264DC81900E50ACB /* Date+Additions.swift in Sources */,
 				FEF29812264DC81900E50ACB /* Bool+Additions.swift in Sources */,
