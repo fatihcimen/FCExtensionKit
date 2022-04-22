@@ -8,10 +8,13 @@
 import UIKit
 
 extension UICollectionViewCell {
-    /// Create a static reuse for collection view cell using its class name.
-    ///
-    /// - Warning: If you are using xib files for your cell design, you are obliged to manually assign a reuse identifier for your cell in the Interface Builder.
-    static var reuseIdentifier: String {
-        return String(describing: self)
+    /// Automatically changes reuse identifier property of an xib designed cell.
+    open override var reuseIdentifier: String {
+        return String(describing: Self.self)
+    }
+    
+    /// Creates a static reuse identifier for collection view cell using its class name.
+    public static var reuseIdentifier: String {
+        return String(describing: Self.self)
     }
 }
